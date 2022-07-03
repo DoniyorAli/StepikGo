@@ -21,9 +21,10 @@ func main() {
 
 	var j bool = a >= b  // true
 	fmt.Println(j)
-
+	
+	fmt.Println()
 	var k bool = a != b // true
-	var l bool = a != 8 // false
+	var l bool = a != 11 // false
 	fmt.Println(k, l)
 
 }
