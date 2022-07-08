@@ -3,21 +3,16 @@ package main
 import "fmt"
 
 const (
-	Sunday = iota
-	Monday
-	Tuesday
-	Wednesday
-	Thursday
-	Friday
-	Saturday
-	_  // skip 7
-	Add
+	a = iota + 1
+	_
+	b
+	c
+	d = c + 2
+	t
+	i
+	i2 = iota + 2
 )
 
 func main() {
-
-	fmt.Println(Sunday)   // вывод: 0
-	fmt.Println(Saturday) // вывод: 6
-	fmt.Println(Add) // вывод: 8
-
+	fmt.Println(i2) // -- 9
 }

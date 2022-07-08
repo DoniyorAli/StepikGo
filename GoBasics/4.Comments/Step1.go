@@ -1,17 +1,10 @@
-package main   // package definition for current file
+package main
 
-import "fmt"   // fmt package connection
+import "fmt"
 
-//main function definition
-
-func main() {
-
-	fmt.Println("Hello Golang!") // output string to console or --->
-
-	// Hello Golang
-
-	/*
-	The Go programming language is an 
-	open source project to make programmers more productive.
-	*/
+func main(){
+	
+    var a2 int = 10
+    a2 = a2 * 10
+    fmt.Println(a2)   
 }

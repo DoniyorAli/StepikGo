@@ -4,15 +4,9 @@ import "fmt"
 
 func main() {
 
-	var name string
-	var age int
-
-	fmt.Print("Enter the name: ")
-	fmt.Scan(&name)
-
-	fmt.Print("Enter the age: ")
-	fmt.Scan(&age)
-
-	fmt.Println(name, age)
+	var num int32
+	fmt.Scan(&num)
+	num = num % 10
+	fmt.Println(num)
 
 }

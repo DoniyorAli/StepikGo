@@ -13,7 +13,7 @@ func main() {
 
 	if first == second || second == third || first == third{
 		fmt.Println("NO")
-	}else if first != second || second != third || first != third{
+	}else if first != second && second != third && first != third{
 		fmt.Println("YES")
 	}
 	// OR 

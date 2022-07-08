@@ -1,15 +1,29 @@
-package main 
+package main
 
 import "fmt"
 
 func main() {
 
-	var(
-		name string = "Alixan"
-		age int = 26
-	)
+	var num1 int
+	var num2 int
 
-	fmt.Println(name)
-	fmt.Println(age)
-	
+	fmt.Scan(&num1, &num2)
+
+	num1 = num1 * num1
+	num2 = num2 * num2
+	c := num1 + num2
+
+	fmt.Println(c)
+
 }
+
+// package main
+// import "fmt"
+// func main(){
+
+// 	var a, b int
+// 	fmt.Scan(&a, &b)
+
+// 	fmt.Println((a*a) + (b*b))
+
+// }
