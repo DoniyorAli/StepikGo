@@ -1,4 +1,4 @@
-package main
+package main   // CONTINUE statement
 
 import "fmt"
 
